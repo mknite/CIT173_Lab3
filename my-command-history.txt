@@ -1,0 +1,71 @@
+    1  clear
+    2  ls
+    3  cat CIT173_Lab
+    4  cat CIT173_Lab3
+    5  cat CIT173_Lab3_Files
+    6  cat ~/CIT173_Lab3
+    7  cat ~/CIT173_Lab3/phonebook1.txt
+    8  sudu -i
+    9  sudo -1
+   10  sudo -i
+   11  sudo -s
+   12  cd CIT173_Lab3
+   13  sudo -i
+   14  sudo -s
+   15  clear
+   16  cat ~/CIT173_Lab3/phonebook1.txt
+   17  cd ~
+   18  cat ~/CIT173_Lab3/phonebook1.txt
+   19  sed  's/575/775/g' phonebook1.txt
+   20  cd ~/CIT173_Lab3
+   21  cat ~/CIT173_Lab3/phonebook1.txt
+   22  sudo -i
+   23  cat my-phonebook.txt
+   24  ls
+   25  cat my-files.txt
+   26  cat my-installed-1.txt
+   27  ls
+   28  sudo apt list --installed
+   29  sudo apt list --installed > my-installed-1.txt
+   30  cat my-installed-1.txt
+   31  ls
+   32  man python
+   33  python hello.py
+   34  python3 hello.py
+   35  ls
+   36  cd CIT173_Lab3_Files
+   37  ls
+   38  cd ~/
+   39  cd CIT173_Lab3_Files
+   40  python3 hello.py
+   41  ls
+   42  ls ~/CIT173_Lab3
+   43  cat ~/CIT173_Lab3/my-python-output.txt
+   44  python3 infinite.py $
+   45  python3 infinite.py &
+   46  ps --help
+   47  man ps
+   48  ps -u miguel
+   49  man ps
+   50  ps -A
+   51  ps -A > ~/CIT173_Lab3/my-processes-1.txt
+   52  cat ~/CIT173_Lab/my-processes-1.txt
+   53  cat ~/CIT173_Lab3/my-processes-1.txt
+   54  kill -s signal pid
+   55  kill -s signal 1362
+   56  kill -l
+   57  kill -9 1362
+   58  ps -A
+   59  ps -A > ~/CIT173_Lab3/my-processes-2.txt
+   60  cat ~/CIT173_Lab3/my-prosesses-2.txt
+   61  cat ~/CIT173_Lab3/my-processes-2.txt
+   62  man apt
+   63  man apt-get
+   64  sudo apt-get remove python3
+   65  sudo apt-get remove python3-minimal
+   66  man apt
+   67  apt list
+   68  apt list --installed
+   69  apt list --installed > ~/CIT173_Lab3/my-installed-2.txt
+   70  cat ~/CIT173_Lab3/my-installed-2.txt
+   71  history > ~/CIT173_Lab3/my-command-history.txt
